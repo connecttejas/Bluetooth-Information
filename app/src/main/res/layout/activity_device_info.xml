@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeviceInfoActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/titleName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Device Name" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/titleAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/titleType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type" />
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Type"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/titleClass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Class" />
+
+            <TextView
+                android:id="@+id/btclass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Class"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/titleState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State" />
+
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/titleUuid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UUID" />
+
+            <TextView
+                android:id="@+id/uuid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="uuid"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/titleValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bond State Value" />
+
+            <TextView
+                android:id="@+id/textViewvalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="textViewvalue"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/titlecodHex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hex value" />
+
+            <TextView
+                android:id="@+id/textViewcodHex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="textViewcodHex"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/titlecodBinary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Binary Value" />
+
+            <TextView
+                android:id="@+id/textViewcodBinary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="textViewcodBinary"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/titlecodBits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cod Bits" />
+
+            <TextView
+                android:id="@+id/textViewcodBits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="textViewcodBits"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</RelativeLayout>
